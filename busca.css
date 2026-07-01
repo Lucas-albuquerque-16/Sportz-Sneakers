@@ -1,0 +1,132 @@
+*{  margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body{
+    background:white;
+    color:#111;
+}
+
+
+
+ul {list-style: none;    }
+    
+    header{
+        height: 81px; width: 90%;
+        justify-items:center ;
+        position: sticky;
+        top: 0;
+        background-color: #ffffff;
+        width: 100%;
+    }
+    header ul{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -48px;
+        width: 30%;
+        height: 100%;
+    }
+    
+    a{ text-decoration: none;
+        color: #1A1A1A;
+    }
+    
+    .logo{
+        width: 5%;
+        height: 90%;
+        object-fit: contain;
+    }
+
+    .icones{
+        position:absolute;
+        right:40px;
+        display:flex;
+        gap:18px;
+    }
+    
+    .icones a{
+        text-decoration:none;
+        font-size:22px;
+        color:black;
+    }
+    
+    .icones a:hover{
+        transform:scale(1.2);
+    }
+
+
+
+.busca{
+    width:850px;
+    margin:40px auto;
+}
+
+.busca h1{
+    font-size:24px;
+    margin-bottom:30px;
+}
+
+
+.barra-pesquisa{
+    height:60px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    display:flex;
+    align-items:center;
+    padding:0 20px;
+    gap:15px;
+}
+
+
+
+.barra-pesquisa span{
+    font-size:30px;
+    color:#777;
+}
+
+
+
+input{
+    width:100%;
+    border:none;
+    outline:none;
+    font-size:16px;
+}
+
+
+
+.busca p{
+    margin-top:30px;
+    color:#555;
+    font-size:14px;
+}
+
+
+
+.tags{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+    flex-wrap:wrap;
+}
+
+
+
+.tags button{
+    border:none;
+    background:#f4f4f4;
+    padding:12px 18px;
+    border-radius:25px;
+    font-size:15px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.tags button:hover{
+    background:#0066ff;
+    color:white;
+}
